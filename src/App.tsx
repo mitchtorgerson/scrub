@@ -3,7 +3,8 @@ import './App.css';
 import { InputChangeEventDetail } from './types';
 import {
   testObj,
-  formatForDisplay
+  formatForDisplay,
+  maskDisplay
 } from './utils';
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
   };
 
   const handleScrub = () => {
-    setResult(formatForDisplay(input));
+    setResult(maskDisplay(input));
   };
 
   useEffect(() => {
