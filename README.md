@@ -7,12 +7,16 @@ we need to clean this up.
 ### To Start
 
 run the following command:
+```
 npm install
+```
 
 ### To Run
 
 run the following command:
+```
 npm run start
+```
 
 A browser window will open with two textareas.  The first will automatically be populated with a test JSON object,
 the second will immediately show the results.  Edit the input to see the results update automatically.
